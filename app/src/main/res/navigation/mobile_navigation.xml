@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.cashlab20.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_invest"
+        android:name="com.example.cashlab20.ui.invest.InvestFragment"
+        tools:layout="@layout/fragment_invest" />
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="com.example.cashlab20.ui.tips.TipsFragment"
+        tools:layout="@layout/fragment_tips" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.cashlab20.ui.progress.ProgressFragment"
+        tools:layout="@layout/fragment_progress" />
+</navigation>
